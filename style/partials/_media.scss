@@ -1,0 +1,123 @@
+@media screen and (max-width:1100px ) {
+    .titulo{
+        
+        height: 75vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #212429 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }.cartas{
+        display: flex;
+        gap: 50px;
+        grid-auto-columns: auto;
+        justify-content: center;
+        margin-top: 20rem
+    }
+     
+}
+
+    
+
+@media screen and (max-width:690px ) {
+     .inicio {
+        background-color:#212429;
+        display: flex;
+        flex-direction: column;
+        gap:25px;
+        grid-gap: 25px;
+        align-items: center;
+        width: 100%;
+        margin-bottom: 0;
+        justify-content: center;
+        }
+        .titulo{
+        
+        height: 50vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        color: #212429 ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }.cartas{
+        display: flex;
+        gap: 30px;
+        grid-auto-columns: auto;
+        justify-content: center;
+        margin-top: 50px;
+       }
+       .tarjeta1{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 15px;
+        margin-top: 10px;
+    
+    }
+    .tarjeta2{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        }
+    .tarjeta3{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+       }  .trabaja_menu{
+            display: flex;
+            flex-direction: column;
+           align-items: center ;
+           justify-content: center;
+           }
+        .carousel-inner{
+          width: 20vh;
+        }
+       
+   
+}@media screen and (max-width:480px ) {
+    .inicio {
+       background-color:#212429;
+       display: flex;
+       flex-direction: column;
+       gap:15px;
+       grid-gap: 15px;
+       align-items: center;
+       width: 100%;
+       margin-bottom: 0;
+       justify-content: center;
+       }
+       .titulo{
+       
+       height: 30vh;
+       background-repeat: no-repeat;
+       background-position: center;
+       background-size: cover;
+       color: #212429 ;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+   }.cartas{
+       display: flex;
+       gap: 15px;
+       grid-auto-columns: auto;
+       justify-content: center;
+       margin-top: 50px;
+      }
+    .trabaja_menu{
+        display: flex;
+        flex-direction: column;
+       align-items: center ;
+       justify-content: center;
+       }
+    .carousel-inner{
+      width: 20vh;
+    }
+    }

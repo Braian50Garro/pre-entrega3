@@ -1,0 +1,108 @@
+.inicio {
+    background-color:#212429;
+    display: flex;
+    gap:25px;
+    grid-gap: 25px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    justify-content: center;
+    }
+    
+.titulo {
+    background-image:url(./img/pricipal.jpg) ;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #212429 ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} 
+.cartas{
+    display: flex;
+    gap: 100px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    margin-top: 50px;
+   }
+   .tarjeta1{
+    width:100%;
+    display: flex;
+    align-items: center;
+    gap: 19px;
+    margin-top: 10px;
+}
+.tarjeta2{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+    }
+.tarjeta3{
+    display: flex;
+    gap: 19px;
+    align-items: center;
+   
+    }
+  
+.trabaja_menu{
+    display: flex;
+   align-items: center ;
+   justify-content: center;
+   gap: 50px;
+  }
+.carousel-inner{
+  width: 40vh;
+}
+
+ .titulo_sabores{
+    color:#212429;
+    font-size: 55px;
+}
+
+.container_caja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1f 1f 1f  ;
+    background-image: url(./img/dia-cafe-taza-cafe-aislado-sobre-fondo-blanco_866593-3678.jpg);
+    background-position: center;
+    column-gap:19px ;
+    row-gap: 19px;
+    
+}
+.caja_caja{
+    border: 1px solid rgb(49, 38, 36);
+     background-color: #ffc10769;
+     font-size: 25px;
+    }
+  .caja_caja p{
+        font-size: 15px;
+    }
+
+.titulo_saboresdulce{
+    color: #212429;
+    font-size: 55px;
+}
+.container_cajadulce{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1f 1f 1f  ;
+    background-image: url(./img/mascota-pastel-cumpleanos-minimalista-ia-generativa_7023-117030.jpg);
+    background-position: center;
+    column-gap:19px ;
+    row-gap: 19px;
+    margin-bottom: 19px;
+    }
+    .caja_caja{
+        transition: transform .3s;
+    }
+    .caja_caja:hover{
+        transform: scale(1.1) translateY(-40px);
+    }
+    .roll-in-bottom{-webkit-animation:roll-in-bottom .6s ease-out both;animation:roll-in-bottom .6s ease-out both}
+     @-webkit-keyframes roll-in-bottom{0%{-webkit-transform:translateY(800px) rotate(540deg);transform:translateY(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}@keyframes roll-in-bottom{0%{-webkit-transform:translateY(800px) rotate(540deg);transform:translateY(800px) rotate(540deg);opacity:0}100%{-webkit-transform:translateY(0) rotate(0deg);transform:translateY(0) rotate(0deg);opacity:1}}   
+.contacto_menu{
+    margin-left: 19px;
+    margin-right: 19px;
+}

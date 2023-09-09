@@ -1,0 +1,282 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;1,400;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.logo img {
+  width: 150px;
+}
+
+header {
+  display: flex;
+  gap: 25px;
+  grid-gap: 25px;
+}
+
+.inicio {
+  background-color: #212429;
+  display: flex;
+  gap: 25px;
+  grid-gap: 25px;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.titulo {
+  background-image: url(../img/pricipal.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: #212429;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  }
+.cartas {
+  display: flex;
+  gap: 100px;
+  grid-auto-columns: auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.tarjeta1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 19px;
+  margin-top: 10px;
+}
+
+.tarjeta2 {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.tarjeta3 {
+  display: flex;
+  gap: 19px;
+  align-items: center;
+}
+
+.trabaja_menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.carousel-inner {
+  width: 40vh;
+}
+
+.titulo_sabores {
+  color: #212429;
+  font-size: 55px;
+}
+
+.container_caja {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1f 1f 1f;
+  background-image: url(../img/dia-cafe-taza-cafe-aislado-sobre-fondo-blanco_866593-3678.jpg);
+  background-position: center;
+  -moz-column-gap: 19px;
+       column-gap: 19px;
+  row-gap: 19px;
+}
+
+.caja_caja {
+  border: 1px solid rgb(49, 38, 36);
+  background-color: rgba(255, 193, 7, 0.4117647059);
+  font-size: 25px;
+}
+
+.caja_caja p {
+  font-size: 15px;
+}
+
+.titulo_saboresdulce {
+  color: #212429;
+  font-size: 55px;
+}
+
+.container_cajadulce {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1f 1f 1f;
+  background-image: url(../img/mascota-pastel-cumpleanos-minimalista-ia-generativa_7023-117030.jpg);
+  background-position: center;
+  -moz-column-gap: 19px;
+       column-gap: 19px;
+  row-gap: 19px;
+  margin-bottom: 19px;
+}
+
+.caja_caja {
+  transition: transform 0.3s;
+}
+
+.caja_caja:hover {
+  transform: scale(1.1) translateY(-40px);
+}
+
+.roll-in-bottom {
+  animation: roll-in-bottom 0.6s ease-out both;
+}
+@keyframes roll-in-bottom {
+  0% {
+    transform: translateY(800px) rotate(540deg);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+  }
+}
+.contacto_menu {
+  margin-left: 19px;
+  margin-right: 19px;
+}
+
+.footer {
+  box-sizing: border-box;
+  top: 0;
+  bottom: 0;
+  background-color: #212429;
+  text-align: center;
+  justify-content: center;
+  color: #ffc107;
+  gap: 50px;
+}
+
+.footer i {
+  margin: 5px;
+}
+
+@media screen and (max-width: 1100px) {
+  .titulo {
+    height: 75vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #212429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cartas {
+    display: flex;
+    gap: 50px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    margin-top: 20rem;
+  }
+}
+@media screen and (max-width: 690px) {
+  .inicio {
+    background-color: #212429;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    grid-gap: 25px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+  .titulo {
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #212429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cartas {
+    display: flex;
+    gap: 30px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .tarjeta1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  .tarjeta2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .tarjeta3 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .trabaja_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-inner {
+    width: 20vh;
+  }
+}
+@media screen and (max-width: 480px) {
+  .inicio {
+    background-color: #212429;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    grid-gap: 15px;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    justify-content: center;
+  }
+  .titulo {
+    height: 30vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #212429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .cartas {
+    display: flex;
+    gap: 15px;
+    grid-auto-columns: auto;
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .trabaja_menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .carousel-inner {
+    width: 20vh;
+  }
+}/*# sourceMappingURL=style.css.map */
